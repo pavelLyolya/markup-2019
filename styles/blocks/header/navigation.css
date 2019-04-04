@@ -1,0 +1,30 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 50%;
+}
+
+.navigation__link {
+    position: relative;
+    font-size: 16px;
+    font-weight: 700;
+    color: #637f83;
+}
+
+.navigation__link:hover {
+    color: #e4551d;
+}
+
+.navigation__link:hover::before {
+    content: '';
+    position: absolute;
+    top: -16px;
+    left: 50%;
+    color: #637f83;
+    border: solid black;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg) translateX(-50%);
+    -webkit-transform: rotate(45deg) translateX(-50%);
+}
