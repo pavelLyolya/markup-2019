@@ -49,10 +49,10 @@
     font-size: 14px;
 }
 
-.more {
+.text-button {
     display: inline-block;
-    width: 70px;
     height: 33px;
+    padding: 0 17px;
     border: none;
     outline: none;
     border-radius: 5px;
