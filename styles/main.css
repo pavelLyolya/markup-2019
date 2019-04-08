@@ -1,6 +1,7 @@
 @import './reset.css';
 @import './blocks/header/index.css';
 @import './blocks/main/index.css';
+@import './blocks/footer/index.css';
 
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900');
 
@@ -10,4 +11,9 @@
 
 html {
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+.line {
+    height: 1px;
+    border: 0;
 }

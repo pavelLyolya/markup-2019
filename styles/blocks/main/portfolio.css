@@ -22,12 +22,9 @@
     align-items: center;
 }
 
-hr {
+.line_portfolio {
     max-width: 545px;
     width: 100%;
-    height: 1px;
-    margin: 0;
-    border: 0;
     background-color: #d5d5d5;
 }
 
