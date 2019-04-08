@@ -1,6 +1,5 @@
 .portfolio-wrap {
     max-width: 1170px;
-    min-height: 373px;
     margin: 0 auto;
     border-bottom: 1px solid #d5d5d5;
     text-align: center;
@@ -61,6 +60,8 @@
 
 .portfolio .text-button {
     box-sizing: content-box;
+    margin-top: 0;
+    margin-bottom: 46px;
     padding: 4px 19px;
     font-size: 18px;
     background-color: #e4551d;
