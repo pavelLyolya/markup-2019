@@ -5,12 +5,14 @@
 }
 
 .main-title__header {
-    position: relative;
-    top: -5px;
+    max-width: 700px;
+    margin: -5px auto 0 auto;
     font-size: 34px;
 }
 
 .main-title__description {
+    max-width: 700px;
+    margin: 4px auto 0 auto;
     word-spacing: -2px;
     font-size: 24px;
     font-weight: 400;

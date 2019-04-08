@@ -7,16 +7,16 @@
     justify-content: center;
     align-items: center;
     min-height: 520px;
+    padding: 20px 0;
     background-image: url('../../../assets/banner-bgnd.png');
     background-position: center 3%;
-    background-size: 1924px auto;
+    background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
 }
 
 .banner-wrap {
-    position: relative;
-    top: -9px;
+    margin-top: -9px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,8 +24,7 @@
 }
 
 .banner__header {
-    position: relative;
-    bottom: 26px;
+    margin-bottom: 26px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,12 +37,12 @@
 }
 
 .banner__header_row {
+    max-width: 500px;
     border-bottom: 2px solid #fff;
 }
 
 .banner__text {
-    position: relative;
-    bottom: 4px;
+    margin-bottom: 12px;
     max-width: 305px;
     text-align: center;
     font-family: 'Lato', sans-serif;
@@ -54,8 +53,7 @@
 }
 
 .go-down {
-    position: relative;
-    top: 30px;
+    margin-top: 30px;
     width: 69px;
     height: 69px;
     border: none;

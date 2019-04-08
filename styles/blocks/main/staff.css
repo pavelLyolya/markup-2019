@@ -11,14 +11,14 @@
 .members-wrap {
     display: flex;
     flex-wrap: wrap;
-    margin-right: -30px;
+    justify-content: space-between;
     margin-bottom: -32px;
 }
 
 .member {
-    flex: 1 0 585px;
+    max-width: 570px;
+    flex: 1 1 auto;
     display: flex;
-    margin-right: 10px;
     margin-bottom: 22px;
 }
 

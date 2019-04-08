@@ -16,6 +16,10 @@
     margin-bottom: 38px;
 }
 
+.portfolio__item_img {
+    max-width: 100%;
+}
+
 .arrows-ctrl {
     display: flex;
     justify-content: space-between;
@@ -26,6 +30,16 @@
     max-width: 545px;
     width: 100%;
     background-color: #d5d5d5;
+}
+
+.arrow-buttons-wrap {
+    width: 205px;
+    display: flex;
+    justify-content: center;
+}
+
+.arrows-ctrl__arrow_left {
+    margin-right: 9px;
 }
 
 .arrows-ctrl__arrow {
@@ -41,7 +55,7 @@
     cursor: pointer;
 }
 
-.arrows-ctrl__arrow_left {
+#arrow_left {
     transform: rotate(180deg);
 }
 

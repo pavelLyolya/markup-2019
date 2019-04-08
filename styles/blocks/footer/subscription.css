@@ -5,12 +5,14 @@
     max-width: 1170px;
     min-height: 195px;
     margin: 0 auto;
-    padding: 40px 0 50px 0;
+    padding-bottom: 50px;
 }
 
 .subscription__way {
-    flex: 1 0 570px;
+    flex: 1 1 570px;
+    max-width: 570px;
     min-height: 103px;
+    margin-top: 40px;
 }
 
 .via-email {
@@ -37,6 +39,11 @@
     font-size: 14px;
 }
 
+.email-form {
+    display: flex;
+    justify-content: space-between;
+}
+
 .email-form__input {
     max-width: 459px;
     width: 100%;
@@ -45,6 +52,7 @@
     border: none;
     outline: none;
     background-color: #597275;
+    margin-top: 25px;
     padding: 0 15px;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
@@ -54,6 +62,7 @@
 
 .email-form__button {
     height: 40px;
+    margin-top: 25px;
     margin-left: 10px;
     background-color: #597275;
     word-spacing: -2px;
@@ -63,7 +72,6 @@
 .via-twitter {
     display: flex;
     align-items: center;
-    max-width: 570px;
     border-radius: 5px;
     background-color: #597275;
 }
