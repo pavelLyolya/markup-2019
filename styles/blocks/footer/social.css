@@ -5,7 +5,7 @@
 .social-wrap {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
     flex-wrap: wrap;
     max-width: 1170px;
     min-height: 132px;
@@ -15,10 +15,13 @@
 .social-item {
     flex: 1 1 300px;
     display: flex;
+    align-items: center;
     margin: 30px 0;
 }
 
 .social-item__logo {
+    align-self: flex-start;
+    flex-shrink: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,6 +32,7 @@
 }
 
 .social-item__text {
+    align-self: stretch;
     padding-left: 20px;
 }
 
