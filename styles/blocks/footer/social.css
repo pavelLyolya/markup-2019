@@ -43,3 +43,24 @@
     font-size: 14px;
     color: #b5c7c9;
 }
+
+@media screen and (max-width: 1170px) {
+    .social-wrap {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .social-wrap {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .social-item {
+        flex: 1 1 auto;
+    }
+}

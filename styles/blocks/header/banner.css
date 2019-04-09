@@ -64,3 +64,24 @@
     font-size: 42px;
     color: #fff;
 }
+
+@media screen and (max-width: 900px) {
+    .banner {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .banner__header {
+        line-height: 32px;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .banner__header {
+        line-height: 25px;
+        font-size: 17px;
+    }
+}

@@ -66,3 +66,17 @@
     font-size: 18px;
     background-color: #e4551d;
 }
+
+@media screen and (max-width: 1170px) {
+    .portfolio {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .portfolio {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}

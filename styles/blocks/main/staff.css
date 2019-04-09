@@ -17,7 +17,7 @@
 
 .member {
     max-width: 570px;
-    flex: 1 1 380px;
+    flex: 1 1 391px;
     display: flex;
     margin-bottom: 22px;
 }
@@ -54,4 +54,24 @@
 
 .more-info {
     color: #e4551d;
+}
+
+@media screen and (max-width: 1170px) {
+    .members-wrap {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .members-wrap {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .member {
+        flex: 1 1 auto;
+    }
 }

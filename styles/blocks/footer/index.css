@@ -2,9 +2,6 @@
 @import './social.css';
 
 .footer {
-    /* position: absolute;
-    bottom: 0;
-    width: 100%; */
     background-color: #637f83;
     color: #fff;
 }
@@ -25,4 +22,18 @@
     padding: 39px 50px;
     text-align: center;
     font-size: 14px;
+}
+
+@media screen and (max-width: 1170px) {
+    .footer .main-title {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .footer .main-title {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
 }

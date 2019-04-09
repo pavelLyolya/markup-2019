@@ -10,3 +10,24 @@
     min-height: 90px;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 1170px) {
+    .header-container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .header-container {
+        position: fixed;
+        width: 100%;
+        padding: 0 16px;
+        background-color: #fff;
+        min-height: 60px;
+    }
+
+    .header-container + * {
+        margin-top: 60px;
+    }
+}
