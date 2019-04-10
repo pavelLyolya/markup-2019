@@ -2,10 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 .banner {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    display: block;
     min-height: 520px;
     padding: 20px 0;
     background-image: url('../../../../assets/banner-bgnd.png');
@@ -16,21 +14,22 @@
 }
 
 .banner-wrap {
+    padding: 97px 0;
+    margin: 0 auto;
     margin-top: -9px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: block;
+    max-width: 500px;
+    text-align: center;
 }
 
 .banner__header {
-    margin-bottom: 26px;
+    margin-top: 4px;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: 'PT Sans', sans-serif;
     text-align: center;
-    line-height: 50px;
+    line-height: 52px;
     word-spacing: 1px;
     letter-spacing: 3px;
     font-size: 40px;
@@ -42,8 +41,8 @@
 }
 
 .banner__text {
-    margin-bottom: 12px;
-    max-width: 305px;
+    padding: 0 60px;
+    margin-top: 23px;
     text-align: center;
     font-family: 'Lato', sans-serif;
     line-height: 26px;
@@ -53,7 +52,8 @@
 }
 
 .go-down {
-    margin-top: 30px;
+    display: inline-block;
+    margin-top: 35px;
     width: 69px;
     height: 69px;
     border: none;
