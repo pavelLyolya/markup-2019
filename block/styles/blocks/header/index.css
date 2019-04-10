@@ -1,0 +1,41 @@
+@import './navigation.css';
+@import './banner.css';
+
+.header-container {
+    position: relative;
+    display: block;
+    max-width: 1170px;
+    height: 90px;
+    margin: 0 auto;
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    font-size: 32px;
+    font-weight: 900;
+    color: #637f83;
+}
+
+@media screen and (max-width: 1170px) {
+    .header-container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .header-container {
+        position: fixed;
+        width: 100%;
+        padding: 0 16px;
+        background-color: #fff;
+        height: 60px;
+    }
+
+    .header-container + * {
+        margin-top: 60px;
+    }
+}

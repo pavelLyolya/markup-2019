@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 520px;
+    padding: 20px 0;
+    background-image: url('../../../../assets/banner-bgnd.png');
+    background-position: center 3%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.banner-wrap {
+    margin-top: -9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__header {
+    margin-bottom: 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    line-height: 50px;
+    word-spacing: 1px;
+    letter-spacing: 3px;
+    font-size: 40px;
+}
+
+.banner__header_row {
+    max-width: 500px;
+    text-decoration: underline;
+}
+
+.banner__text {
+    margin-bottom: 12px;
+    max-width: 305px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    line-height: 26px;
+    word-spacing: 1px;
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+
+.go-down {
+    margin-top: 30px;
+    width: 69px;
+    height: 69px;
+    border: none;
+    border-radius: 50%;
+    background-color: #e4551d;
+    text-align: center;
+    line-height: 69px;
+    font-size: 42px;
+    color: #fff;
+}
+
+@media screen and (max-width: 900px) {
+    .banner {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .banner__header {
+        line-height: 32px;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .banner__header {
+        line-height: 25px;
+        font-size: 17px;
+    }
+}
