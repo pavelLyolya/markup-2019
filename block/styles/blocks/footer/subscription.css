@@ -11,7 +11,9 @@
     margin-left: -29px;
 }
 
-.subscription-ways-wrap::after, .via-email__header::after {
+.subscription-ways-wrap::after,
+.via-email__header::after,
+.email-form::after {
     content: "";
     display: table;
     clear: both;
@@ -58,12 +60,13 @@
 }
 
 .email-form {
-    display: flex;
-    justify-content: space-between;
+    display: block;
 }
 
 .email-form__input {
-    width: 100%;
+    display: block;
+    float: left;
+    width: 80%;
     min-width: 50px;
     height: 40px;
     border-radius: 5px;
@@ -78,10 +81,19 @@
     color: #fff;
 }
 
+.email-form__button-wrap {
+    display: block;
+    float: left;
+    width: 20%;
+    padding-left: 16px;
+    margin-top: 25px;    
+}
+
 .email-form__button {
+    width: 100%;
     height: 40px;
-    margin-top: 25px;
-    margin-left: 10px;
+    padding: 0;
+    margin: 0;
     background-color: #597275;
     word-spacing: -2px;
     letter-spacing: 2px;
@@ -132,5 +144,15 @@
 
     .via-email {
         padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .email-form__input {
+        width: 65%;
+    }
+
+    .email-form__button-wrap {
+        width: 35%;
     }
 }

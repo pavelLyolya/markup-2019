@@ -37,6 +37,7 @@
 
 .banner__header_row {
     max-width: 500px;
+    width: 100%;
     text-decoration: underline;
 }
 
