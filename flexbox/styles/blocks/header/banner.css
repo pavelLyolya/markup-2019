@@ -16,6 +16,7 @@
 }
 
 .banner-wrap {
+    width: 100%;
     margin: 0 auto;
     margin-top: -18px;
     display: block;
@@ -24,6 +25,7 @@
 }
 
 .banner__header {
+    width: 100%;
     margin-top: 4px;
     display: flex;
     flex-direction: column;
@@ -37,6 +39,7 @@
 }
 
 .banner__header_row {
+    width: 100%;
     max-width: 500px;
     text-decoration: underline;
 }

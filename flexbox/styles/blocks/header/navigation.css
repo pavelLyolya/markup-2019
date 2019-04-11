@@ -89,10 +89,10 @@
     }
 
     #menu-toggler:checked ~ .menu-icon .menu-icon__line:first-child {
-        transform: rotate(45deg);
+        transform: rotate(45deg) translate(6px, 5px);
     }
     #menu-toggler:checked ~ .menu-icon .menu-icon__line:last-child {
-        transform: rotate(-45deg) translate(11px, -11px);
+        transform: rotate(-45deg) translate(6px, -5px);
     }
     #menu-toggler:checked ~ .menu-icon .menu-icon__line:nth-child(2) {
         opacity: 0;
