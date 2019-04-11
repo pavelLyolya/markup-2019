@@ -22,6 +22,7 @@ $.path.task.forEach(function(taskPath) {
 $.gulp.task('build', $.gulp.series(
 
     $.gulp.parallel(
-        'css'
+        'css',
+        'css-flex'
     )
 ));
