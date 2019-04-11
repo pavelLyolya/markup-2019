@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" type="text/css" href="./styles/main.css"> -->
-    <link rel="stylesheet" type="text/css" href="./build/style/main.css">
+    <link rel="stylesheet" type="text/css" href="./styles/main.css">
+    <!-- <link rel="stylesheet" type="text/css" href="./build/style/main.css"> -->
     <title>Markup-2019</title>
 </head>
 
@@ -113,18 +113,28 @@
             </div>
         </section>
         <section class="portfolio">
-            <header class="main-title">
-                <h2 class="main-title__header">
-                    Cras ornare tristique elit
-                </h2>
-                <h3 class="main-title__description">
-                    Donec odio uisque volutpat mattis eros ullam malesuada erat ut turpis.
-                </h3>
-            </header>
+            
             <div class="portfolio-wrap">
+                    <span id="image-1"></span>
+                    <span id="image-2"></span>
+                    <span id="image-3"></span>
+                    <header class="main-title">
+                            <h2 class="main-title__header">
+                                Cras ornare tristique elit
+                            </h2>
+                            <h3 class="main-title__description">
+                                Donec odio uisque volutpat mattis eros ullam malesuada erat ut turpis.
+                            </h3>
+                        </header>
+                
                 <div class="arrows-ctrl">
                     <hr class="line line_portfolio" />
-                    <div class="arrow-buttons-wrap">
+                    <div class="button-holder">
+                        <a href="#image-1" class="slider-change"></a>
+                        <a href="#image-2" class="slider-change"></a>
+                        <a href="#image-3" class="slider-change"></a>
+                    </div>
+                    <!-- <div class="arrow-buttons-wrap">
                         <button class="arrows-ctrl__arrow arrows-ctrl__arrow_left">
                             <svg id="arrow_left" xmlns="http://www.w3.org/2000/svg" width="14px" height="14px"
                                 viewBox="0 0 444.815 444.815">
@@ -151,11 +161,16 @@
                                     fill="white" />
                             </svg>
                         </button>
-                    </div>
+                    </div> -->
                     <hr class="line line_portfolio" />
                 </div>
                 <figure class="portfolio__item">
-                    <img src="../assets/portfolio/portfolio-bgnd.png" alt="orange" class="portfolio__item_img">
+                    <div class="slides-holder">
+                        <!-- <img src="../assets/portfolio/portfolio-bgnd.png" alt="orange" class="portfolio__item_img"> -->
+                        <img src="../assets/slider/fjord1.jpg" alt="orange" class="portfolio__item_img">
+                        <img src="../assets/slider/fjord2.jpg" alt="orange" class="portfolio__item_img">
+                        <img src="../assets/slider/fjord3.jpg" alt="orange" class="portfolio__item_img">
+                    </div>
                 </figure>
                 <button class="text-button">View Portfolio</button>
             </div>
