@@ -9,16 +9,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 100%;
-    margin-left: -16px;
+    margin-left: -29px;
 }
 
 .subscription__way {
-    flex: 1 1 350px;
-    max-width: 570px;
+    width: 50%;
     min-height: 103px;
     margin-top: 40px;
-    margin-left: 16px;
+    padding-left: 29px;
 }
 
 .via-email {
@@ -30,6 +28,10 @@
 .via-email__header {
     display: flex;
     color: #fff;
+}
+
+#letter {
+    margin-top: -2px;
 }
 
 .via-email__header-text {
@@ -79,6 +81,7 @@
 .via-twitter {
     display: flex;
     align-items: center;
+    height: 100%;
     border-radius: 5px;
     background-color: #597275;
 }
@@ -94,7 +97,7 @@
     margin: 15px 29px;
     max-width: 429px;
     font-size: 14px;
-    line-height: 22px;
+    line-height: 23px;
     color: #b5c7c9;
 }
 

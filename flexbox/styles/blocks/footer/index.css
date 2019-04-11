@@ -19,7 +19,9 @@
 }
 
 .designed-by {
-    padding: 39px 50px;
+    padding: 0 50px;
+    padding-bottom: 36px;
+    padding-top: 37px;
     text-align: center;
     font-size: 14px;
 }
