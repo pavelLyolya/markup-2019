@@ -1,4 +1,6 @@
 .subscription-wrap {
+    display: block;
+    width: 100%;
     max-width: 1170px;
     min-height: 195px;
     margin: 0 auto;
@@ -6,34 +8,44 @@
 }
 
 .subscription-ways-wrap {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
-    margin-left: -16px;
+    margin-left: -29px;
+}
+
+.subscription-ways-wrap::after, .via-email__header::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .subscription__way {
-    flex: 1 1 350px;
-    max-width: 570px;
+    display: block;
+    float: left;
+    width: 50%;
     min-height: 103px;
     margin-top: 40px;
-    margin-left: 16px;
+    padding-left: 29px;
 }
 
 .via-email {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    display: block;
 }
 
 .via-email__header {
-    display: flex;
+    display: block;
     color: #fff;
 }
 
+#letter {
+    display: block;
+    float: left;
+    width: 7%;
+}
+
 .via-email__header-text {
-    padding-left: 18px;
+    display: block;
+    float: left;
+    width: 90%;
+    padding-left: 16px;
 }
 
 .via-email__header-text_main {
@@ -51,7 +63,6 @@
 }
 
 .email-form__input {
-    max-width: 459px;
     width: 100%;
     min-width: 50px;
     height: 40px;
@@ -91,7 +102,7 @@
 }
 
 .via-twitter__description {
-    margin: 15px 29px;
+    margin: 20px 29px;
     max-width: 429px;
     font-size: 14px;
     line-height: 22px;
@@ -109,23 +120,17 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
-    .subscription-ways-wrap {
-        flex-direction: column;
-        align-items: center;
-        margin-left: 0;
-    }
-
-    .subscription__way {
-        flex: 1 1 auto;
-        width: 100%;
-        margin-left: 0;
-    }
-}
-
 @media screen and (max-width: 900px) {
     .subscription-wrap {
         padding-left: 16px;
         padding-right: 16px;
+    }
+
+    .subscription__way {
+        width: 100%;
+    }
+
+    .via-email {
+        padding-right: 0;
     }
 }
