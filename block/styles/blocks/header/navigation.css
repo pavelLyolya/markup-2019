@@ -63,7 +63,7 @@
     display: none;
 }
 
-@media screen and (max-width: 1170px) {
+@media screen and (max-width: 1200px) {
     .navigation {
         right: 10px;
     }

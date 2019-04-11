@@ -19,7 +19,7 @@
     color: #637f83;
 }
 
-@media screen and (max-width: 1170px) {
+@media screen and (max-width: 1200px) {
     .header-container {
         padding-left: 10px;
         padding-right: 10px;

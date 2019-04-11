@@ -62,7 +62,7 @@
     color: #b5c7c9;
 }
 
-@media screen and (max-width: 1170px) {
+@media screen and (max-width: 1200px) {
     .social-wrap {
         padding-left: 10px;
         padding-right: 10px;

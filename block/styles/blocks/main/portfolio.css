@@ -81,7 +81,7 @@
     background-color: #e4551d;
 }
 
-@media screen and (max-width: 1170px) {
+@media screen and (max-width: 1200px) {
     .portfolio {
         padding-left: 10px;
         padding-right: 10px;

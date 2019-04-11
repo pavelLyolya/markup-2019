@@ -41,14 +41,14 @@
 #letter {
     display: block;
     float: left;
-    width: 7%;
+    margin-top: -2px;
 }
 
 .via-email__header-text {
     display: block;
     float: left;
     width: 90%;
-    padding-left: 16px;
+    padding-left: 19px;
 }
 
 .via-email__header-text_main {
@@ -104,22 +104,22 @@
     position: relative;
     display: block;
     width: 100%;
+    padding: 18px 21px 21px 31px;
     border-radius: 5px;
     background-color: #597275;
 }
 
 #twitter {
     display: block;
-    position: absolute;
-    top: 54px;
-    left: 59px;
-    transform: translate(-50%, -50%);
+    float: left;
+    margin-top: 6px;
 }
 
 .via-twitter__description {
     display: block;
-    width: 100%;
-    padding: 18px 29px 21px 118px;
+    float: left;
+    width: 84%;
+    padding-left: 6%;
     font-size: 14px;
     line-height: 22px;
     color: #b5c7c9;
@@ -129,7 +129,7 @@
     color: #fff;
 }
 
-@media screen and (max-width: 1170px) {
+@media screen and (max-width: 1200px) {
     .subscription-wrap {
         padding-left: 10px;
         padding-right: 10px;
@@ -152,11 +152,19 @@
 }
 
 @media screen and (max-width: 600px) {
+    .via-email__header-text {
+        width: 80%;
+    }
+
     .email-form__input {
         width: 65%;
     }
 
     .email-form__button-wrap {
         width: 35%;
+    }
+
+    .via-twitter__description {
+        width: 75%;
     }
 }

@@ -52,14 +52,15 @@
 }
 
 .member__info_header {
-    line-height: 16px;
+    margin-top: -6px;
+    line-height: 28px;
     font-size: 22px;
     color: #637f83;
 }
 
 .member__info_description {
     max-width: 430px;
-    padding-top: 12px;
+    padding-top: 6px;
     font-size: 14px;
     line-height: 27px;
     color: #959494;
@@ -69,7 +70,7 @@
     color: #e4551d;
 }
 
-@media screen and (max-width: 1170px) {
+@media screen and (max-width: 1200px) {
     .members-wrap {
         padding-left: 10px;
         padding-right: 10px;
