@@ -13,7 +13,8 @@
 
 .subscription-ways-wrap::after,
 .via-email__header::after,
-.email-form::after {
+.email-form::after,
+.via-twitter::after {
     content: "";
     display: table;
     clear: both;
@@ -100,22 +101,25 @@
 }
 
 .via-twitter {
-    display: flex;
-    align-items: center;
+    position: relative;
+    display: block;
+    width: 100%;
     border-radius: 5px;
     background-color: #597275;
 }
 
 #twitter {
-    margin-left: 30px;
-    margin-top: 25px;
-    align-self: flex-start;
-    flex-shrink: 0;
+    display: block;
+    position: absolute;
+    top: 54px;
+    left: 59px;
+    transform: translate(-50%, -50%);
 }
 
 .via-twitter__description {
-    margin: 20px 29px;
-    max-width: 429px;
+    display: block;
+    width: 100%;
+    padding: 18px 29px 21px 118px;
     font-size: 14px;
     line-height: 22px;
     color: #b5c7c9;
