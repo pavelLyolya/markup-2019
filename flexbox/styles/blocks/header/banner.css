@@ -17,8 +17,7 @@
 
 .banner-wrap {
     width: 100%;
-    margin: 0 auto;
-    margin-top: -18px;
+    margin: -18px auto 0 auto;
     display: block;
     max-width: 500px;
     text-align: center;
@@ -32,7 +31,7 @@
     align-items: center;
     font-family: 'PT Sans', sans-serif;
     text-align: center;
-    line-height: 52px;
+    line-height: 1.3;
     word-spacing: 1px;
     letter-spacing: 3px;
     font-size: 40px;
@@ -49,7 +48,7 @@
     margin-top: 23px;
     text-align: center;
     font-family: 'Lato', sans-serif;
-    line-height: 26px;
+    line-height: 1.7;
     word-spacing: 1px;
     letter-spacing: 3px;
     font-size: 16px;
@@ -64,7 +63,7 @@
     border-radius: 50%;
     background-color: #e4551d;
     text-align: center;
-    line-height: 69px;
+    line-height: 1.6;
     font-size: 42px;
     color: #fff;
 }

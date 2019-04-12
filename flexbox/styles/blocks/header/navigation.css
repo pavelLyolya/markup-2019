@@ -1,8 +1,11 @@
+.navigation-wrap {
+    flex-basis: 50%;
+    margin-left: auto;
+}
+
 .navigation {
     display: flex;
     justify-content: space-between;
-    flex-basis: 50%;
-    margin-left: auto;
 }
 
 .navigation__link {
@@ -64,7 +67,7 @@
         position: fixed;
         top: 0;
         right: 0;
-        opacity: 0;
+        opacity: 1;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-end;
@@ -85,7 +88,6 @@
 
     #menu-toggler:checked ~ .navigation {
         transform: translateX(0);
-        opacity: 1;
     }
 
     #menu-toggler:checked ~ .menu-icon .menu-icon__line:first-child {
