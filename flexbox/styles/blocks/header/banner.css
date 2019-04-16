@@ -3,16 +3,21 @@
 
 .banner {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 520px;
     padding: 20px 0;
     background-image: url('../../../../assets/banner-bgnd.png');
     background-position: center 3%;
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
+}
+
+.banner-flex-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 520px;
 }
 
 .banner-wrap {
