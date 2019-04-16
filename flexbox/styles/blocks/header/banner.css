@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
 .banner {
     display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 520px;
     padding: 20px 0;
     background-image: url('../../../../assets/banner-bgnd.png');
     background-position: center 3%;
@@ -11,20 +19,11 @@
     color: #fff;
 }
 
-.banner-flex-wrap {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    min-height: 520px;
-}
-
 .banner-wrap {
-    width: 100%;
-    margin: -18px auto 0 auto;
     display: block;
     max-width: 500px;
+    width: 100%;
+    margin: -18px auto 0 auto;
     text-align: center;
 }
 
