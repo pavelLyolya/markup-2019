@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.banner {
+    position: relative;
+    display: block;
+    min-height: 520px;
+    padding: 20px 0;
+    background-image: url('../../../../assets/banner-bgnd.png');
+    background-position: center 3%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.banner-wrap {
+    padding: 97px 0;
+    margin: 0 auto;
+    margin-top: -9px;
+    display: block;
+    max-width: 500px;
+    text-align: center;
+}
+
+.banner__header {
+    margin-top: 4px;
+    display: block;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    line-height: 52px;
+    word-spacing: 1px;
+    letter-spacing: 3px;
+    font-size: 40px;
+}
+
+.banner__header_row {
+    display: block;
+    max-width: 500px;
+    width: 100%;
+    text-decoration: underline;
+}
+
+.banner__text {
+    padding: 0 60px;
+    margin-top: 23px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    line-height: 26px;
+    word-spacing: 1px;
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+
+.go-down {
+    display: inline-block;
+    margin-top: 35px;
+    width: 69px;
+    height: 69px;
+    border: none;
+    border-radius: 50%;
+    background-color: #e4551d;
+    text-align: center;
+    line-height: 69px;
+    font-size: 42px;
+    color: #fff;
+}
+
+@media screen and (max-width: 900px) {
+    .banner {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .banner__header {
+        line-height: 32px;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .banner__header {
+        line-height: 25px;
+        font-size: 17px;
+    }
+}

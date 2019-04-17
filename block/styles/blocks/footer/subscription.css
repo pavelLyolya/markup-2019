@@ -1,0 +1,170 @@
+.subscription-wrap {
+    display: block;
+    width: 100%;
+    max-width: 1170px;
+    min-height: 195px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.subscription-ways-wrap {
+    margin-left: -29px;
+}
+
+.subscription-ways-wrap::after,
+.via-email__header::after,
+.email-form::after,
+.via-twitter::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.subscription__way {
+    display: block;
+    float: left;
+    width: 50%;
+    min-height: 103px;
+    margin-top: 40px;
+    padding-left: 29px;
+}
+
+.via-email {
+    display: block;
+}
+
+.via-email__header {
+    display: block;
+    color: #fff;
+}
+
+#letter {
+    display: block;
+    float: left;
+    margin-top: -2px;
+}
+
+.via-email__header-text {
+    display: block;
+    float: left;
+    width: 90%;
+    padding-left: 19px;
+}
+
+.via-email__header-text_main {
+    font-size: 18px;
+}
+
+.via-email__header-text_description {
+    padding-top: 6px;
+    font-size: 14px;
+}
+
+.email-form {
+    display: block;
+}
+
+.email-form__input {
+    display: block;
+    float: left;
+    width: 80%;
+    min-width: 50px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #597275;
+    margin-top: 25px;
+    padding: 0 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.email-form__button-wrap {
+    display: block;
+    float: left;
+    width: 20%;
+    padding-left: 16px;
+    margin-top: 25px;    
+}
+
+.email-form__button {
+    width: 100%;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    background-color: #597275;
+    word-spacing: -2px;
+    letter-spacing: 2px;
+}
+
+.via-twitter {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 18px 21px 21px 31px;
+    border-radius: 5px;
+    background-color: #597275;
+}
+
+#twitter {
+    display: block;
+    float: left;
+    margin-top: 6px;
+}
+
+.via-twitter__description {
+    display: block;
+    float: left;
+    width: 84%;
+    padding-left: 6%;
+    font-size: 14px;
+    line-height: 22px;
+    color: #b5c7c9;
+}
+
+.via-twitter__link {
+    color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+    .subscription-wrap {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .subscription-wrap {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .subscription__way {
+        width: 100%;
+    }
+
+    .via-email {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .via-email__header-text {
+        width: 80%;
+    }
+
+    .email-form__input {
+        width: 65%;
+    }
+
+    .email-form__button-wrap {
+        width: 35%;
+    }
+
+    .via-twitter__description {
+        width: 75%;
+    }
+}

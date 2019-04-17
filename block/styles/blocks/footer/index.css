@@ -1,0 +1,41 @@
+@import './subscription.css';
+@import './social.css';
+
+.footer {
+    background-color: #637f83;
+    color: #fff;
+}
+
+.footer .main-title {
+    padding-top: 47px;
+    padding-bottom: 37px;
+    color: #fff;
+}
+
+.line_footer {
+    max-width: 1170px;
+    margin: 0 auto;
+    background-color: #597275;
+}
+
+.designed-by {
+    padding: 0 50px;
+    padding-bottom: 36px;
+    padding-top: 37px;
+    text-align: center;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1200px) {
+    .footer .main-title {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .footer .main-title {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}

@@ -1,0 +1,120 @@
+.portfolio-wrap {
+    max-width: 1170px;
+    margin: 0 auto;
+    border-bottom: 1px solid #d5d5d5;
+    text-align: center;
+}
+
+.portfolio .main-title {
+    padding-top: 57px;
+    padding-bottom: 17px;
+}
+
+.portfolio__item {
+    margin-top: 35px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.slides-holder {
+    height: 170px;
+    position: relative;
+    width: 3510px;
+    border-radius: 5px;
+    transition: left 1s cubic-bezier(.44,.98,.47,1.08);
+    clear: both;
+}
+
+#image-1:target ~ .portfolio__item .slides-holder {
+    left: 0px;
+}
+
+#image-2:target ~ .portfolio__item .slides-holder {
+    left: -1170px;
+}
+
+#image-3:target ~ .portfolio__item .slides-holder {
+    left: -2340px;
+}
+
+.portfolio__item_img {
+    display: block;
+    float: left;
+    width: 33.33%;
+}
+
+.arrows-ctrl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line_portfolio {
+    max-width: 545px;
+    width: 100%;
+    background-color: #d5d5d5;
+}
+
+.arrow-buttons-wrap {
+    width: 205px;
+    display: flex;
+    justify-content: center;
+}
+
+.button-holder {
+    min-width: 37px;
+    margin: 0 22px;
+}
+
+.slider-change {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    background-color: #e4551d;
+}
+
+.arrows-ctrl__arrow_left {
+    margin-right: 9px;
+}
+
+.arrows-ctrl__arrow {
+    flex-shrink: 0;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #e4551d;
+    cursor: pointer;
+}
+
+#arrow_left {
+    transform: rotate(180deg);
+}
+
+.portfolio .text-button {
+    box-sizing: content-box;
+    margin-top: 0;
+    margin-bottom: 60px;
+    padding: 4px 19px;
+    font-size: 18px;
+    background-color: #e4551d;
+}
+
+@media screen and (max-width: 1170px) {
+    .portfolio {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .portfolio {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}

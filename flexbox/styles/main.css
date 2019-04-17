@@ -1,0 +1,30 @@
+@import './reset.css';
+@import './blocks/header/index.css';
+@import './blocks/main/index.css';
+@import './blocks/footer/index.css';
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.line {
+    height: 1px;
+    border: 0;
+}
